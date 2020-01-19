@@ -43,5 +43,7 @@ defmodule C1Web.Endpoint do
     key: "_c1_key",
     signing_salt: "XtsBU+kM"
 
+  plug CORSPlug
+
   plug C1Web.Router
 end

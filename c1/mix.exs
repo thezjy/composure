@@ -37,6 +37,7 @@ defmodule C1.MixProject do
       {:absinthe_plug, "~> 1.5.0-rc.0"},
       {:absinthe_relay, "~> 1.5.0-rc.0"},
       {:absinthe, "~> 1.5.0-rc.1"},
+      {:cors_plug, "~> 2.0"},
       {:distillery, "~> 2.1"},
       {:ecto_sql, "~> 3.1"},
       {:gettext, "~> 0.11"},
